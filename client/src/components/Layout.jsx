@@ -11,9 +11,5 @@ export default function Layout({ children }) {
       <Footer />
     </div>
   );
-<<<<<<< HEAD:YT-VIDEO-DOWNLOADER/client/src/components/Layout.jsx
 }
 
-=======
-}
->>>>>>> main:client/src/components/Layout.jsx

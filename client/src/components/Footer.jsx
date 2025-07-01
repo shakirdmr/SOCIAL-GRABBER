@@ -1,4 +1,3 @@
-<<<<<<< HEAD:YT-VIDEO-DOWNLOADER/client/src/components/Footer.jsx
 export default function Footer() {
   return (
     <footer className="backdrop-blur-md bg-black border-t border-white/20 text-white mt-12">
@@ -57,20 +56,3 @@ export default function Footer() {
     </footer>
   );
 }
-=======
-// File: client/src/components/Footer.jsx
-export default function Footer() {
-  return (
-    <footer className="bg-white border-t mt-12">
-      <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center text-gray-500">
-        <div className="space-x-6">
-          <a href="#" className="hover:text-gray-700">Terms of Service</a>
-          <a href="#" className="hover:text-gray-700">Privacy Policy</a>
-          <a href="#" className="hover:text-gray-700">Contact Us</a>
-        </div>
-        <p className="mt-4 md:mt-0">© 2024 VideoGrabber. All rights reserved.</p>
-      </div>
-    </footer>
-  );
-}
->>>>>>> main:client/src/components/Footer.jsx

@@ -13,19 +13,11 @@ export default function Header() {
         <Link to="/" className="flex items-center space-x-2">
           <img
             src="/appIcon.png"
-<<<<<<< HEAD:YT-VIDEO-DOWNLOADER/client/src/components/Header.jsx
             alt="Social Grabber"
             className="h-10 w-10 rounded-full"
           />
           <span className="text-xl font-semibold text-gray-800">
             Social Grabber
-=======
-            alt="SocialGrabber"
-            className="h-10 w-10 rounded-full"
-          />
-          <span className="text-xl font-semibold text-gray-800">
-            SocialGrabber
->>>>>>> main:client/src/components/Header.jsx
           </span>
         </Link>
 
@@ -130,7 +122,3 @@ export default function Header() {
     </header>
   );
 }
-<<<<<<< HEAD:YT-VIDEO-DOWNLOADER/client/src/components/Header.jsx
-
-=======
->>>>>>> main:client/src/components/Header.jsx
