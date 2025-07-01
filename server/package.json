@@ -2,85 +2,127 @@
 
   
 
+
+
   "scripts": {
 
   
 
+
+
     
+
+
 
   "start": "node index.js",
 
   
 
+
+
     
+
+
 
   "dev": "nodemon index.js"
 
   
 
+
+
   },
 
   
+
+
 
   "devDependencies": {
 
   
 
+
+
     
+
+
 
   "autoprefixer": "^10.4.21",
 
   
 
+
+
     
+
+
 
   "postcss": "^8.5.6",
 
   
 
+
+
     
+
+
 
   "tailwindcss": "^4.1.10"
 
   
 
+
+
   },
 
   
+
+
 
   "dependencies": {
 
   
 
+
+
     
+
+
 
   "cors": "^2.8.5",
 
   
 
+
+
     
+
+
 
   "express": "^5.1.0",
 
   
 
+
+
     
+
+
 
   "express-useragent": "^1.0.15",
 
   
 
-    
 
-  "geoip-lite": "^1.4.10",
-
-  
 
     
 
-  "ytdl-core": "^4.11.5"
+
+
+  "geoip-lite": "^1.4.10"
 
   
+
+
 
   }
 
