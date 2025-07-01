@@ -12,11 +12,11 @@ export default function Home() {
     try {
       // const res = await fetch(`http://localhost:5500/info?url=${encodeURIComponent(url)}`);
       // const res = await fetch(`http://192.168.31.246:5500/info?url=${encodeURIComponent(url)}`);
-      const res = await fetch(`http://192.168.1.12:5500/info?url=${encodeURIComponent(url)}`);
+      const res = await fetch(import.meta.env.VITE_API_URL_BACKEND+`/info?url=${encodeURIComponent(url)}`);
       const data = await res.json();
       setVideo(data);
     } catch {
-      alert("Oops! Couldn't fetch video data.");
+      alert("API ERROR - Oops! Couldn't fetch video data.");
     }
     setLoading(false);
   };
